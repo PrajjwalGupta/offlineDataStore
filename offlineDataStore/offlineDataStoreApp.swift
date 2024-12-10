@@ -12,6 +12,7 @@ struct offlineDataStoreApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .modelContainer(for: VideosImages.self)
         }
     }
 }
